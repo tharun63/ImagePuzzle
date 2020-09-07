@@ -1,0 +1,79 @@
+body {
+    font-family: 'Segoe UI', Helvetica, Arial;
+    margin: 0;
+}
+#collage h2{
+    margin: 0;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#collage h3{
+    padding-top: 10px;
+    text-align: center;
+}
+#collage hr{
+    margin-left: 10px;
+    margin-right: 10px;
+    border:none;
+    border-top:2px solid #f5f2f2;
+    height:1px;
+}
+#collage #playpanel {
+    background-color: #c2defc;
+    margin-left: 270px;
+    max-width:800px;
+    width: 90%;
+    
+}
+#collage #actualImageBox{
+    display: inline-block;
+    font-size: 15px;
+    margin: 10px 10px;
+    vertical-align: top;
+    width: 280px;
+}
+#collage #stepBox, #collage #timeBox {
+    display:inline-block;
+    width:48%;
+}
+#collage #stepBox div {
+    background-color:#c2defc;
+    display:inline-block;
+    padding:1px 4px;
+    margin: 0px auto;
+    max-width:800px;
+}
+#collage img#actualImage{
+    height: 280px;
+    width: 280px;
+    border: 5px solidc#a46;
+}
+#collage #sortable {
+    border: 2px solid #a46;
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px;
+    padding: 0;
+    width: 400px;
+    height: 400px;
+}
+#collage #sortable li {
+    background-size: 400% 400%;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+#collage #levelpanel{
+    padding-bottom: 5px;
+}
+#collage button {
+    background-color: #f5f2;
+    border: 2px solid #cce;
+    display: inline;
+    font-size:15px;
+    padding: 3px 8px;
+}
